@@ -12,6 +12,9 @@ const MainPage = () => {
           <li><Link to="/signin" className="nav-link">Login</Link></li>
           <li className="separator">|</li>
           <li><Link to="/register" className="nav-link">Sign up</Link></li>
+          <li><Link to="/createTrip" className="nav-link">Create Trip</Link></li>
+          <li><Link to="/editTrip" className="nav-link">Edit Trip</Link></li>
+
         </ul>
       </nav>
       <div className="background-container">
